@@ -8,4 +8,6 @@ docker build -t pricing-service ./pricing-service
 
 # Build rate-limited-service image
 docker build -t rate-limited-service ./rate-limited-service
- 
+
+# Build monitor-and-adjust service 
+docker build -t monitor-and-adjust ./monitor-and-adjust

@@ -1,0 +1,169 @@
+    1  cd ..
+    2  ls
+    3  cd ~
+    4  ls
+    5  sudo apt update
+    6  ls
+    7  sudo ls
+    8  docker
+    9  mkdir
+   10  cd ~/desktop
+   11  cd ..
+   12  ls
+   13  cd home
+   14  ls
+   15  cd waseem
+   16  ls
+   17  mkdir assignment
+   18  cd assignment
+   19  git --help
+   20  cd ..
+   21  sudo apt install gnome-text-editor
+   22  gnome-text-editor ~/.bashrc
+   23  sudo apt install gimp -y
+   24  gimp
+   25  sudo apt install nautilus -y
+   26  nautilus
+   27  gimp
+   28  sudo apt install vlc -y
+   29  vlc
+   30  sudo apt install x11-apps -y
+   31  ls
+   32  cd downloads/
+   33  sudo apt install ./code_1.91.1-1720564633_amd64.deb
+   34  code
+   35  docker --versin
+   36  docker --version
+   37  cd ..
+   38  files
+   39  nautilus
+   40  cd downloads/
+   41  git clone https://github.com/ariskou/Dynamic-Web-Server-Assignment.git
+   42  ls
+   43  cd Dynamic-Web-Server-Assignment/
+   44  ./build-all.sh
+   45  sudo ./build-all.sh
+   46  /bin/python3 /home/waseem/downloads/Dynamic-Web-Server-Assignment/monitor-and-adjust/app.py
+   47  docker container ls
+   48  ls
+   49  cd downloads/
+   50  ls
+   51  cd D
+   52  cd Dynamic-Web-Server-Assignment/
+   53  ls
+   54  ./build-all.sh
+   55  docker container ls
+   56  ./run-all.sh
+   57  docker container ls
+   58  python --version
+   59  docker
+   60  python3 ./monitor_and_adjust.py
+   61  docker build -t monitor-and-adjust ./monitor-and-adjust
+   62  docker network ls
+   63  docker build -t monitor-and-adjust ./monitor-and-adjust/
+   64  ./run-monitor-and-adjust.sh
+   65  chmod +x run-monitor-and-adjust.sh
+   66  ./run-monitor-and-adjust.sh
+   67  chmod +x run-monitor-and-adjust.sh
+   68  ./run-monitor-and-adjust.sh
+   69  sudo apt-get install dos2unix   # For Debian/Ubuntu-based systems
+   70  dos2unix run-monitor-and-adjust.sh
+   71  ./run-monitor-and-adjust.sh
+   72  docker container ls
+   73  docker logs monitor-and-adjust
+   74  docker ps -a
+   75  docker inspect monitor-and-adjust
+   76  docker events --since '10m'
+   77  docker run --rm --network pricing-network -it monitor-and-adjust /bin/bash
+   78  pip list
+   79  pip3 list
+   80  sudo apt install python3-pip
+   81  pip3 list
+   82  python3 ./monitor-and-adjust/monitor_and_adjust.py
+   83  pip3 install requests
+   84  python3 ./monitor-and-adjust/monitor_and_adjust.py
+   85  pip3 install docker
+   86  python3 ./monitor-and-adjust/monitor_and_adjust.py
+   87  docker network ls
+   88  docker run --rm --network pricing-network curlimages/curl curl http://pricing-service:80/price
+   89  python3 ./monitor-and-adjust/monitor_and_adjust.py
+   90  docker network ls
+   91  curl http://pricing-service:80/price
+   92  curl http://172.19.0.4:80/price
+   93  curl http://0.0.0.0:80/price
+   94  curl http://0.0.0.0/20100:80/price
+   95  docker network ls
+   96  docker inspect pricing-network
+   97  python3 ./monitor-and-adjust/monitor_and_adjust.py
+   98  docker build -t monitor-and-adjust ./monitor-and-adjust/
+   99  docker run --rm --name monitor-and-adjust --network pricing-network -d monitor-and-adjust
+  100  docker build -t monitor-and-adjust ./monitor-and-adjust/
+  101  docker run --rm --name monitor-and-adjust --network pricing-network -d monitor-and-adjust
+  102  docker container ls
+  103  curl 0.0.0.:20100:80
+  104  curl 0.0.0.:20100:80/price
+  105  curl 0.0.0.0:20100:80/price
+  106  curl http://0.0.0.0:20100:80/price
+  107  curl http://0.0.0.0:20100-?80/price
+  108  curl http://0.0.0.0:20100->80/price
+  109  curl http://0.0.0.0:20100->80/tcp
+  110  curl http://0.0.0.0:20100
+  111  curl http://0.0.0.0:20100/pricc
+  112  curl http://0.0.0.0:20100/price
+  113  python3 ./monitor-and-adjust/app.py
+  114  curl http://0.0.0.0:20100/price
+  115  python3 ./monitor-and-adjust/app.py
+  116  python3 ./monitor-and-adjust/app.py
+  117  docker run -d --name test-container -e RPS=3rps -p 20003:80 rate-limited-service
+  118  docker run -d --name test-container -e RPS=3 -p 20003:80 rate-limited-service
+  119  python3 ./monitor-and-adjust/app.py
+  120  cd downloads/
+  121  cd Dynamic-Web-Server-Assignment/
+  122  ls
+  123  docker build -t monitor-and-adjust ./monitor-and-adjust/
+  124  ./run-monitor-and-adjust.sh
+  125  docker run --rm --name monitor-and-adjust --network pricing-network -d monitor-and-adjust
+  126  docker build -t monitor-and-adjust ./monitor-and-adjust/
+  127  docker run --rm --name monitor-and-adjust --network pricing-network -d monitor-and-adjust
+  128  sudo systemctl status docker
+  129  docker run --rm --name monitor-and-adjust --network pricing-network -d monitor-and-adjust
+  130  sudo systemctl status docker
+  131  sudo docker run --rm --name monitor-and-adjust --network pricing-network -d monitor-and-adjust
+  132  sudo systemctl status docker
+  133  ls
+  134  docker container ls
+  135  cd downloads/
+  136  cd Dynamic-Web-Server-Assignment/
+  137  ls
+  138  sudo docker run --rm --name monitor-and-adjust --network pricing-network -d monitor-and-adjust
+  139  python3 ./monitor-and-adjust/app.py
+  140  ls
+  141  cd d
+  142  cd downloads/
+  143  cd Dynamic-Web-Server-Assignment/
+  144  ls
+  145  docker build -t monitor-and-adjust ./monitor-and-adjust/
+  146  sudo docker run --rm --name monitor-and-adjust --network pricing-network -d monitor-and-adjust
+  147  chmod 666 /var/run/docker.sock
+  148  docker run -v /var/run/docker.sock:/var/run/docker.sock my-container
+  149  docker run -v /var/run/docker.sock:/var/run/docker.sock monitor-and-adjust
+  150  docker --stats
+  151  sudo chmod 666 /var/run/docker.sock
+  152  sudo docker run --rm --name monitor-and-adjust --network pricing-network -d monitor-and-adjust
+  153  sudo groupadd docker
+  154  sudo usermod -aG docker ${USER}
+  155  sudo chmod 666 /var/run/docker.sock
+  156  sudo systemctl restart docker
+  157  ./run-all.sh
+  158  sudo docker run --rm --name monitor-and-adjust --network pricing-network -d monitor-and-adjust
+  159  sudo groupadd docker
+  160  sudo usermod -aG docker ${USER}
+  161  sudo chmod 666 /var/run/docker.sock
+  162  sudo systemctl restart docker
+  163  sudo groupadd docker
+  164  sudo usermod -aG docker ${USER}
+  165  su -s ${USER}
+  166  docker run hello-world
+  167  sudo chmod 666 /var/run/docker.sock
+  168  sudo docker run --rm --name monitor-and-adjust --network pricing-network -d monitor-and-adjust
+  169  docker run -v /var/run/docker.sock:/var/run/docker.sock monitor-and-adjust
