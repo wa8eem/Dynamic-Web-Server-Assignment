@@ -6,6 +6,9 @@
 
 This assignment involves setting up and managing a dynamic web server infrastructure based on the fluctuating price of a vCPU. The price oscillates between 2€ and 8€ periodically every 40 seconds. Based on the current price, you will adapt the number and type of web servers running. The provided setup includes a pricing service, rate-limited web servers, and a visualization tool.
 
+## Demo Video
+Here's the demo video link showing the script in action. [https://youtu.be/hCNmQ_5uK0c]([url](https://youtu.be/hCNmQ_5uK0c))
+
 ## Provided Scripts and Containers
 
 ### 1. Pricing Service
